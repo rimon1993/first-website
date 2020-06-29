@@ -11,7 +11,6 @@
 body {
 
     font-family: sans-serif ;
-background-color: greenyellow;
 }
 
 .r:hover {
@@ -32,4 +31,31 @@ ul li:nth-child(2n+1){
     
     font-size: 50px;
     background-color: hotpink;
+}
+
+
+.overflow {
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: auto;
+
+}
+
+.box {
+    height:300px;
+    width:300px;
+    background-color: chartreuse;
+}
+
+@media screen and (max-width:480px) {
+
+    .box{
+
+        overflow: auto;
+        color:red;
+        
+    }
+
 }
